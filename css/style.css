@@ -1,13 +1,87 @@
-body{
-    font-family: 'Roboto', sans-serif;
-    
-    
+:root {
+  --primary-color: #212121;
+  --secondary-color: #757575;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
 }
-/* font styles */
-/* font-family: 'DM Sans', sans-serif; */
-/* font-family: 'Montserrat', sans-serif; */
-/* font-family: 'Raleway', sans-serif; */
-/* font-family: 'Roboto', sans-serif; */
+body {
+  font-family: "Roboto", sans-serif;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  color: #000000;
+}
+.logo-part {
+  color: var(--accent-color);
+}
+.list {
+  list-style: none;
+}
+.navigation-link,
+.contact-link {
+  color: var(--primary-color);
+}
+.navigation-link:hover,
+.contact-link:hover,
+.navigation-link:focus,
+.contact-link:focus {
+  color: var(--accent-color);
+}
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: var(--white-color);
+}
+.hero-btn {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+.section-title {
+  color: var(--primary-color);
+}
+.about-title {
+  color: var(--primary-color);
+}
+.about-text {
+  color: var(--secondary-color);
+}
+.team-member-name {
+  color: var(--primary-color);
+}
+.team-member-profession {
+  color: var(--secondary-color);
+}
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  color: var(--accent-color);
+}
+.footer-logo-part {
+  color: var(--white-color);
+}
+.footer-address,
+.footer-contact-link {
+  color: var(--white-color);
+}
+.filter-button {
+  background-color: #f5f4fa;
+  color: var(--primary-color);
+}
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+.item-title {
+  color: var(--primary-color);
+}
+.item-text {
+  color: var(--secondary-color);
+}
+
 /* Візуальне приховування */
 .visually-hidden {
   position: absolute;
