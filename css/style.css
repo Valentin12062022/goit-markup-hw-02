@@ -54,6 +54,10 @@ body {
 .contact-link:focus {
   color: var(--accent-color);
 }
+.current {
+  color: var(--accent-color);
+}
+
 .hero {
   background-color: var(--dark-bg-color);
 }
@@ -66,7 +70,15 @@ body {
 
   color: var(--light-color);
 }
-.hero-btn,
+.hero-btn {
+  color: var(--light-color);
+  background-color: var(--accent-color);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--dark-color);
+  background-color: var(--light-bg-color);
+}
 .filter-button {
   font-family: "Roboto";
   font-style: normal;
@@ -78,9 +90,7 @@ body {
   cursor: pointer;
 }
 .filter-button:hover,
-.hero-btn:hover,
-.filter-button:focus,
-.hero-btn:focus {
+.filter-button:focus {
   color: var(--light-color);
   background-color: var(--accent-color);
 }
@@ -88,12 +98,10 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  color: var(--primary-color);
 }
 .about-title {
   font-size: 14px;
   line-height: 1.14;
-  color: var(--primary-color);
 }
 .about-text {
   font-weight: 400;
@@ -105,7 +113,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  color: var(--primary-color);
 }
 .team-member-profession {
   font-weight: 400;
@@ -127,9 +134,19 @@ body {
 .footer-logo-part {
   color: var(--light-color);
 }
-.footer-address,
-.footer-contact-link {
+.footer-address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
   color: var(--light-color);
+}
+.footer-contact-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-address:hover,
 .footer-contact-link:hover,
@@ -147,6 +164,9 @@ body {
   font-size: 18px;
   line-height: 2;
   color: var(--primary-color);
+}
+.project-link {
+  text-decoration: none;
 }
 .item-text {
   font-weight: 400;
