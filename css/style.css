@@ -71,14 +71,15 @@ body {
   color: var(--light-color);
 }
 .hero-btn {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
   color: var(--light-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
-.hero-btn:hover,
-.hero-btn:focus {
-  color: var(--dark-color);
-  background-color: var(--light-bg-color);
-}
+
 .filter-button {
   font-family: "Roboto";
   font-style: normal;
@@ -102,6 +103,7 @@ body {
 .about-title {
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 .about-text {
   font-weight: 400;
